@@ -17,7 +17,7 @@ This repository contains the code and resources for the paper **"VADIS: A Visual
 - [Contributing](#contributing)
 - [License](#license)
 - [TODO](#todo)
-
+- [BibTex](#BibTex)
 ## Features
 
 - **Dynamic Document Embeddings**: Adjust embeddings based on user queries using the Prompt-based Attention Model (PAM).
@@ -136,3 +136,20 @@ plot_som_results(som, data, labels, relevance, sort=True)
 ```
 <strong>Notebook</strong>
 For a detailed example, refer to the Jupyter Notebook [`notebooks/projection_example.ipynb`](notebooks/projection_example.ipynb)
+
+## TODO 
+- [ ] Open-source the component-based frontend system 
+
+## BibTeX
+```bibtex
+@article{qiu2024vadis,
+  title={VADIS: A Visual Analytics Pipeline for Dynamic Document Representation and Information-Seeking},
+  author={Qiu, Rui and Tu, Yamei and Yen, Po-Yin and Shen, Han-Wei},
+  journal={IEEE Transactions on Visualization and Computer Graphics},
+  year={2024},
+  publisher={IEEE},
+  doi={10.1109/TVCG.2024.10677360},  % You can replace this with the actual DOI if available
+  url={https://www.computer.org/csdl/journal/tg/5555/01/10677360/209oqMvDHtm}
+}
+
+```
