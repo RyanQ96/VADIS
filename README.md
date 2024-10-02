@@ -45,7 +45,6 @@ This repository contains the code and resources for the paper **"VADIS: A Visual
 └── train.py
 ```
 - `arguments.py`: Defines training arguments using <code>HfArgumentParser</code>.
-- `assets/`: Contains images and other assets for documentation.
 - `data/`: Directory for placing additional training data.
 - `dataloader/`: Implements data loading for different datasets.
 - `model/`: Contains the implementation of the Prompt-based Attention Model (PAM).
