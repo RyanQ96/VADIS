@@ -73,7 +73,7 @@ python train.py \
   --batch_size 4 \
   --max_length 512 \
   --model_name "bert-base-uncased" \
-  --datasets squad emrqa triviaqa \
+  --datasets "Your dataset"\
   --use_dual_loss True \
   --entropy_weight 0.01 \
   --load_pretrained_model False \
